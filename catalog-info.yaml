@@ -1,0 +1,18 @@
+apiVersion:  backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: create-react-app
+  title: React
+  description: Test For Backstage
+  tags:
+    - backstage
+    - typescript
+    - reactjs
+   annotations:
+    github.com/project-slug: Test-Backstage-Org/create-react-app
+    
+spec:
+  type: Service
+  owner: infrastructure
+  lifecycle: development
+  
